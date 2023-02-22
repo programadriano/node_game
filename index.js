@@ -35,3 +35,5 @@ function playGame() {
 // Start the game
 console.log('I\'m thinking of a number between 1 and 100...');
 playGame();
+
+module.exports = playGame;
