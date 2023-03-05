@@ -23,6 +23,6 @@ describe('playGame', () => {
             callback(`${secretNumber}\n`);
         });
         await playGame(rl);
-        expect(process.stdout.write).toHaveBeenCalledWith('Guess a number between 1 and 100: ');
+        expect(process.stdout.write).toHaveBeenCalledWith('Agora você, adivinhe um número de 1 a 100:');
     });
 });

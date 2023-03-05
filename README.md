@@ -1,33 +1,35 @@
-# Guessing number
- 
-This is a simple guessing game where the player tries to guess a randomly generated number between 1 and 100. This project includes a Jest test suite to ensure that the game works as expected.
+# Adivinhe o número de 1 a 100
+
+Este é um simples jogo de adivinhação em que o jogador tenta adivinhar um número gerado aleatoriamente entre 1 e 100. Este projeto inclui um conjunto de testes Jest para garantir que o jogo funcione conforme o esperado.
+
 
 ## Installation
-To use this project, you will need Node.js and npm installed on your machine. Clone the repository and install the necessary packages using the following commands:
+Para usar este projeto, você precisará ter o Node.js e o npm instalados em sua máquina. Clone o repositório e instale os pacotes necessários usando os seguintes comandos:
+
 
 ```bash
 npm install
 ```
 
 # Usage
-To start the game, run the following command in the project directory:
+Para iniciar o jogo, execute o seguinte comando no diretório do projeto:
 
 ```
 node index.js
 ```
 
-You will be prompted to enter a number between 1 and 100. Keep guessing until you correctly guess the secret number!
+Você será solicitado a inserir um número entre 1 e 100. Continue adivinhando até acertar o número secreto!
 
 # Testing
-To run the test suite, use the following command:
+Para executar o conjunto de testes, use o seguinte comando:
 
 ```bash
 npm test 
 ```
 
-The test suite uses Jest to test the functionality of the game. 
+O conjunto de testes usa o Jest para testar a funcionalidade do jogo.
 
-The tests ensure that the game correctly handles invalid input, generates a random number between 1 and 100, and correctly identifies when the player has guessed the secret number.
+Os testes garantem que o jogo manipule corretamente entradas inválidas, gere um número aleatório entre 1 e 100 e identifique corretamente quando o jogador acertou o número secreto
 
 
 
