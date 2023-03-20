@@ -14,5 +14,6 @@ jobs:
       env:
         SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
       with:
+        status: 'good'
         channel: '#general'
         message: 'Pull request merged: ${{ github.event.pull_request.title }}'
