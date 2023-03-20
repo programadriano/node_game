@@ -16,4 +16,4 @@ jobs:
       with:
         status: 'good'
         channel: '#general'
-        message: 'Pull request merged: ${{ github.event.pull_request.title }}'
+        message: 'hi'
