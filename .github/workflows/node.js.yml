@@ -11,7 +11,7 @@ jobs:
     - name: Send Slack notification
       uses: 8398a7/action-slack@v3
       env:
-        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
+        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
       with:
         status: 'good'
         channel: '#general'
