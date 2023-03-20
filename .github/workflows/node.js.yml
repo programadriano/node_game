@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Enviar mensagem
-      uses: rtCamp/action-slack-notify@v2.3.0
+      uses: rtCamp/action-slack-notify@v2
       env:
         SLACK_CHANNEL: 'C04RYP6CVNF'
         SLACK_BOT_TOKEN: 'xoxp-83394036917-4596943277793-4895553710321-e798cced52d8a2c85c6fcdb420b54a75'
