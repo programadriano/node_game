@@ -10,4 +10,4 @@ jobs:
         SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
       with:
         channel: '#general'
-        message: 'hello'
+        message: 'hello.'
