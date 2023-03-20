@@ -1,13 +1,13 @@
 name: Enviar mensagem para o Slack
 on: [push]
 jobs:
-  send-message:
+  slack:
     runs-on: ubuntu-latest
     steps:
-    - name: Enviar mensagem
-      uses: rtCamp/action-slack-notify@v2
+    - name: Send Slack notification
+      uses: 8398a7/action-slack@v3
       env:
-        SLACK_CHANNEL: 'C04RYP6CVNF'
-        SLACK_BOT_TOKEN: 'T2FBL12SZ/B04S1BFK2JG/HKa8Z6PMCYfrPYsUdnwmGrX7'
+        SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
       with:
-        message: "Olá, Slack!"
+        channel: '#general'
+        message: 'hello'
